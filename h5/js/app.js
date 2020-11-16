@@ -51,7 +51,7 @@ const content = `
 
     function readSignature()  {
         if (signaturePad.isEmpty()) {
-            window.ReactNativeWebView.postMessage("EMPTY");
+            //window.ReactNativeWebView.postMessage("EMPTY");
         } else {
             var url = signaturePad.toDataURL('<%imageType%>');
             window.ReactNativeWebView.postMessage(url);

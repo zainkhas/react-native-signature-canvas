@@ -1,5 +1,5 @@
-const content = script =>
-    `<!doctype html>
+const content = (script) =>
+  `<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -175,10 +175,7 @@ const content = script =>
       <canvas></canvas>
     </div>
     <div class="m-signature-pad--footer">
-      <div class="description"><%description%></div>
-      <button type="button" class="button clear" data-action="clear"><%clear%></button>
-      <button type="button" class="button save" data-action="save"><%confirm%></button>
-    </div>
+     
   </div>
 
   <script>
